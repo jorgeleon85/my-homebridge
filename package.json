@@ -1,5 +1,5 @@
 {
-  "name": "homebridge",
+  "name": "my-homebridge",
   "description": "HomeKit support for the impatient",
   "version": "0.4.36",
   "scripts": {
@@ -32,5 +32,9 @@
     "node-persist": "^0.0.8",
     "qrcode-terminal": "^0.11.0",
     "semver": "5.0.3"
+  },
+  "devDependencies": {
+    "homebridge": "^0.4.45",
+    "homebridge-sensibo-sky": "^0.4.2"
   }
 }

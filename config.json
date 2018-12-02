@@ -14,5 +14,17 @@
             "name": "Lock Switch",
             "stateful": true
         }
-    ]
+    ],
+    "platforms": [
+        {
+            "platform": "SensiboSky",
+            "name": "Sensibo",
+            "apiKey": "API_KEY",
+            "timeLapse": 5,
+            "ai": true,
+            "hideFan": false,
+            "hideHumidity": true,
+            "fixedState" : "auto"
+        }
+    ],
 }
